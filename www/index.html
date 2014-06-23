@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<html ng-app="directory" >
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
@@ -28,22 +27,22 @@
     <script src="js/controllers.js"></script>
   </head>
 
-  <!-- 
+  <!--
     'directory' is the name of this angular module (js/app.js)
   -->
-  <body ng-app="directory" animation="slide-left-right-ios7">
+  <body animation="slide-left-right-ios7">
 
-    <!-- 
+    <!--
       The nav bar that will be updated as we navigate between views
       Additional attributes set its look, nav-bar animation and icons
-      Icons provided by Ionicons: http://ionicons.com/ 
+      Icons provided by Ionicons: http://ionicons.com/
     -->
-    <nav-bar type="bar-positive" 
-             animation="nav-title-slide-ios7" 
-             back-button-type="button-icon" 
+    <nav-bar type="bar-positive"
+             animation="nav-title-slide-ios7"
+             back-button-type="button-icon"
              back-button-icon="ion-ios7-arrow-back"></nav-bar>
 
-    <!-- 
+    <!--
       The views will be rendered in the <nav-view> directive below
       Templates are in the /templates folder (but you could also
       have templates inline in this html file if you'd like).
