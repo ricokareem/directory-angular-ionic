@@ -1,0 +1,11 @@
+{
+  "name": "directory-angular-ionic",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ws"
+  },
+  "repository": "https://github.com/ccoenraets/directory-angular-ionic.git",
+  "dependencies": {
+    "local-web-server": "~0.5.12"
+  }
+}
